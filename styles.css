@@ -20,6 +20,7 @@ body{
     grid-template-columns: repeat(4,100px);
     grid-template-rows: minmax(130px,auto) repeat(5,100px);
     gap:1px white;
+    touch-action: manipulation;
 }
 
 .calc-grid > button{
@@ -27,6 +28,7 @@ body{
     font-size: 2rem;
     border: 1px solid white;
     background-color: rgba(255,255,255, 0.75);
+    touch-action: manipulation;
 }
 
 .calc-grid > button:hover{
@@ -34,6 +36,7 @@ body{
     font-size: 2.1rem;
     border: 1px solid white;
     background-color: rgba(255,255,255, 0.95);
+    touch-action: manipulation;
 }
 
 .calc-grid .current:hover {
